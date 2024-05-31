@@ -1,0 +1,51 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+.bg {
+  max-width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #F5F5F5 center;
+  background-size: cover;
+}
+.no-scroll {
+  overflow: hidden!important;
+  position: fixed;
+  width: 100%;
+}
+.train{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100vw;
+  min-height: Calc(100vh - 100px);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.trains{
+  display: grid;
+  width: 80vw;
+  grid-template-columns: 1fr 3fr 3fr 4fr;
+}
+.trains h5{
+  text-align: center;
+  border: 0.1rem solid #e52727;
+  overflow: hidden;
+  border-bottom: none;
+  font-size: 18px;
+}
+
+.train h4{
+  color: #272727;
+  text-align: center;
+}
+.train__header{
+  background: #464648;
+  color: #ffffff;
+  font-size: 24px;
+}
